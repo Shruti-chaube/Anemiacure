@@ -5,8 +5,12 @@ function getBotResponse(input){
         return "Bye, Talk to you later!"
     }
    
-     else if(input=="What is your name"){
-      return "my name is shruti!";
+     else if(input=="Shara"){
+      return "Hey shara! Welcome";
+     }else if(input=="Shruti"){
+        return "Hey shruti! Welcome";
+    }else if(input=="Soniya"){
+        return "Hey soniya! Welcome";
    }else if(input=="Hey"){
       return " Do you have any doubt"
 }else if(input=="No"){
@@ -19,7 +23,7 @@ function getBotResponse(input){
 else if(input=="What can I do to control my anemia?"){
     return "Taking iron supplement pills and getting enough iron in your food will correct most cases of iron deficiency anemia.";
 }else{
-return "Goodbye";
+return "Try something else";
 }
 
 }
