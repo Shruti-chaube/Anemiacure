@@ -11,8 +11,12 @@ function getBotResponse(input){
         return "Hey shruti! Welcome";
     }else if(input=="Soniya"){
         return "Hey soniya! Welcome";
+    }else if(input=="Rishabh"){
+        return "Hey Rishabh! Welcome";
+    
    }else if(input=="Hey"){
       return " Do you have any doubt"
+      
 }else if(input=="No"){
     return "ok";
 }else if(input=="What are symptoms of anemia?"){
