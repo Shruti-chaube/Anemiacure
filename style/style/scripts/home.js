@@ -2,7 +2,10 @@ function getTime() {
     let today = new Date();
     hours = today.getHours();
     minutes = today.getMinutes();
-
+    date = today.getDate();
+    month=today.getMonth();
+    
+    year = today.getFullYear();
     if (hours < 10) {
         hours = "0" + hours;
     }
@@ -11,7 +14,7 @@ function getTime() {
         minutes = "0" + minutes;
     }
 
-    let time = hours + ":" + minutes;
+    let time = date+"/"+month+"/"+year+","+hours + ":" + minutes;
     return time;
 }
 

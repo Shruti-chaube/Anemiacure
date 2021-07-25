@@ -7,7 +7,7 @@
 }
 
 .collapsible {
-    background-color: rgb(219, 79, 247);
+    background-color: #c43636;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -113,7 +113,7 @@
 .userText span {
     line-height: 1.5em;
     display: inline-block;
-    background: #aa39a4;
+    background: #c43636;
     padding: 10px;
     border-radius: 8px;
     border-bottom-right-radius: 2px;
